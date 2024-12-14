@@ -59,4 +59,5 @@ const consultarProdutos = {
     }),
 };
 
+
 module.exports = { consultaPorId, consultarProdutos, createProduto, updateProduto };

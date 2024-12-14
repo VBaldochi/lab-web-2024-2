@@ -58,5 +58,6 @@ const Produto = sequelize.define('Produto', {
     timestamps: false,
 });
 
+
 module.exports = Produto;
 

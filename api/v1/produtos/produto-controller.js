@@ -14,6 +14,7 @@ const getProdutoPorId = async (request, h) => {
     return h.response({ error: "Produto não encontrado." }).code(404);
 };
 
+
 const createProduto = async (request, h) => {
     const result = await produtoBusiness.save(request.payload);
     return h.response(result).code(201);
